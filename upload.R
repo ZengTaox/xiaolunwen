@@ -1,6 +1,3 @@
-v <- c('香蕉','熟香蕉','生香蕉','黄香蕉','蕉黄')
-v[grep(v, pattern = '^黄',value = F)]
-'red'
 rm(list = ls())
 library(ROCR)
 library(ggplot2)
